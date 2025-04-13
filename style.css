@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    width: auto;
+    font-family: "Sora", sans-serif;
+    background-color: #FAFAF9;
+    margin: 10% 75px;
+    padding: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 32px;
+}
+h1 {
+    font-size: 2.25rem;
+}
+p {
+    font-size: 1.25rem;
+    color: #52525A;
+}
+#done {
+    font-size: 0.875rem;
+    flex-wrap: wrap;
+}
+.Google, .Meta {
+    border-radius: 12px;
+    width: 65%;
+    padding: 2%;
+    box-shadow: 3px 5px 10px 4px rgba(181, 181, 181, 0.165);
+    font-size: 1rem;
+}
+.columna1 {
+    grid-column-start: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.columna2 {
+    grid-column-start: 2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+}
+.Google {
+    position: relative;
+    left: 30%;
+    bottom: 10%;
+}
+#name {
+    color: black;
+}
