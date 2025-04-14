@@ -24,9 +24,12 @@ p {
 .Google, .Meta {
     border-radius: 12px;
     width: 65%;
-    padding: 2%;
+    padding: 5%;
     box-shadow: 3px 5px 10px 4px rgba(181, 181, 181, 0.165);
     font-size: 1rem;
+}
+#google, #meta {
+    margin-right: 4%;
 }
 .columna1 {
     grid-column-start: 1;
