@@ -9,7 +9,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 32px;
-    flex-wrap: wrap;
 }
 h1 {
     font-size: 2.25rem;
@@ -51,4 +50,17 @@ p {
 }
 #name {
     color: black;
+}
+@media (max-width: 640px) {
+    body {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 10% 8px;
+    }
+    .columna1 {
+        grid-row-start: 1;
+    }
+    .columna2 {
+        grid-row-start: 2;
+    }
 }
