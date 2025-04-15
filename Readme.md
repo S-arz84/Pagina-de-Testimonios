@@ -1,6 +1,4 @@
-<!-- Please update value in the {}  -->
-
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center"> Pagina de Testimonios | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/testimonial-page" target="_blank">Testimonial Page</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://pagina-de-testimonios-seven.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://pagina-de-testimonios-seven.vercel.app/">
       Solution
     </a>
     <span> | </span>
@@ -38,49 +36,32 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](Pagina.png)
 
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- What have you learned/improved?
-- Your wisdom? :)
--->
+<p>Esta pagina es sobre testimonios</p>
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
-
+<p>Pude aprender a trabajar de manera mas eficiente, anteriormente realizaba ejercicios puestos por mi mismo sin rumbo alguno, con estos proyectos puedo aprender de manera precisa y objetiva con desafios de manera correcta. Aprendi a realizar un sitio mas ordenado y limpio para que sea comodo para el usuario. Aprendi a usar distintas herramientas en html y css.</p> 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
-
 ### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
+En mi proyecto se encuentra el uso de HTML para una mejor accesibilidad y SEO. Diseño adaptable a móviles, tabletas y computadoras. Despliegue en Netlify para acceso en línea.
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+DevChallenges.io me apoyo a poder aprender mas y de forma mas formal. Mimo.org me apoyo a aprender despacio y sencillo y algunos tutoriales de youtube e instagram.
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [your-website.com](https://pagina-de-testimonios-seven.vercel.app/)
+- GitHub [@your-username](https://github.com/S-arz84)
