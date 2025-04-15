@@ -5,7 +5,8 @@ body {
     background-color: #FAFAF9;
     margin: 10% 75px;
     padding: 0;
-    display: inline-block;
+}
+.contenedor-total {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 32px;
@@ -53,18 +54,27 @@ p {
     color: black;
 }
 @media (max-width: 640px) {
-    body {
+    .contenedor-total {
     grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 10% 8px;
+    grid-gap: 0;
     }
     .columna1 {
         grid-row-start: 1;
+        grid-column-start: 1;
         display: flex;
         justify-content: flex-start;
     }
     .columna2 {
         grid-row-start: 2;
+        grid-column-start: 1;
         display: flex;
         justify-content: flex-start;
+    }
+    .Google, .Meta {
+        width: auto;
+        position: relative;
+        left: 0;
     }
 }
