@@ -16,6 +16,7 @@ h1 {
 p {
     font-size: 1.25rem;
     color: #52525A;
+    flex-wrap: wrap;
 }
 #done {
     font-size: 0.875rem;
@@ -53,14 +54,17 @@ p {
 }
 @media (max-width: 640px) {
     body {
-    grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     margin: 10% 8px;
     }
     .columna1 {
         grid-row-start: 1;
+        display: flex;
+        justify-content: flex-start;
     }
     .columna2 {
         grid-row-start: 2;
+        display: flex;
+        justify-content: flex-start;
     }
 }
